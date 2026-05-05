@@ -318,7 +318,7 @@ def coroutine_init(function, parameters, threads):
 	return result
 
 def ExtractUrls(main_url, depth = 200, threads = 30):
-	print("[Info] - Collecting URLs for the entire website, it takes a little time...")
+	print("[Info] - Collecting URLs for the entire website, it takes a time")
 	print("Main url: {url} \nDepth: {depth}\nThreads:{threads}".format(url=main_url,depth=depth,threads=threads))
 	domain = GetUrlPart(main_url, "domain")
 	domain_path = domain.replace(".", "_")
