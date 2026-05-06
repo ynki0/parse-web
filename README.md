@@ -6,7 +6,7 @@ pip3 install -r requirements.txt
 
 python sitecopy.py -u "http://.com"
 
-python sitecopy.py -u "http://1.com" -e
+python sitecopy.py -u "http://.com" -e
 
 python sitecopy.py -s "site.txt"
 
